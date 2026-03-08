@@ -1,0 +1,41 @@
+name: indicbridge
+description: Real-time two-way translation for 22 Indian languages using Gemini 1.5 Flash.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Gemini AI
+  google_generative_ai: ^0.4.6
+
+  # Speech-to-Text
+  speech_to_text: ^6.6.2
+
+  # Text-to-Speech
+  flutter_tts: ^4.0.2
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # UI extras
+  animate_do: ^3.3.4
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
