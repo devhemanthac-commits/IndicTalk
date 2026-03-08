@@ -3,7 +3,7 @@ import '../models/language_model.dart';
 
 class GeminiService {
   // 🔑 Replace with your actual Gemini API key
-  static const String _apiKey = 'AIzaSyCNpj8AsU9PQIJZ1TaNnLvHVrv26-G6uDU';
+  static const String _apiKey = 'YOUR_GEMINI API KEY';
 
   late final GenerativeModel _model;
 
